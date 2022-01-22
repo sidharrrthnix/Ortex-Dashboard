@@ -185,9 +185,9 @@ const SignIn: React.FC = () => {
                         </div>
                         <div className="flex items-center justify-end">
                           <div className="text-sm">
-                            <button
+                            <div
                               onClick={() => setOpen((prev) => !prev)}
-                              className="font-medium text-theme hover:text-lighttheme"
+                              className="font-medium text-theme hover:text-lighttheme cursor-pointer"
                             >
                               Forgot your password?
                               {open && (
@@ -196,7 +196,7 @@ const SignIn: React.FC = () => {
                                   setOpen={setModalOpen}
                                 />
                               )}
-                            </button>
+                            </div>
                           </div>
                         </div>
 
