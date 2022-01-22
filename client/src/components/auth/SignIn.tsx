@@ -187,7 +187,7 @@ const SignIn: React.FC = () => {
                           <div className="text-sm">
                             <button
                               onClick={() => setOpen((prev) => !prev)}
-                              className="font-medium text-themeeeeeeeeee hover:text-indigo-500"
+                              className="font-medium text-theme hover:text-indigo-500"
                             >
                               Forgot your password?
                               {open && (
