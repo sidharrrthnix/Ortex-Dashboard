@@ -4,6 +4,8 @@ This application has client and server functionalities.
 
 Initially Sign up with any credentials and kindly remember it for signing in again. The server will save the user credentials on the local mongo server hosted on Port 27017 and extension auth
 
+I have used Typescript only on the Client as server is  added as an additional functionality
+
 ## Installation
 
 Use the package manager [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) to install the npm registry.
