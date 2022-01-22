@@ -76,9 +76,9 @@ const ForgotPassword: React.FC<IProps> = ({ open, setOpen }) => {
                 <input
                   type="text"
                   name="email"
-                  id="Username"
-                  autoComplete="Username"
-                  placeholder="Username"
+                  id="email"
+                  autoComplete="email"
+                  placeholder="Your verified Email Address"
                   className="block w-full shadow-sm focus:ring-theme focus:border-theme sm:text-sm border-gray-300 rounded-md"
                 />
               </div>
