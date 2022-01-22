@@ -6,7 +6,11 @@ const router = require("./router");
 const mongoose = require("mongoose");
 const cors = require("cors");
 const app = express();
-mongoose.connect("mongodb://localhost:27017/auth", { useNewUrlParser: true });
+mongoose.connect("mongodb://localhost:27017/auth", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true,
+});
 app.use(morgan("combined"));
 app.use(cors());
 app.use(bodyParser.json({ type: "*/*" }));

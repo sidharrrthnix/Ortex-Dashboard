@@ -18,7 +18,7 @@ interface IProps {
 }
 const Stats: React.FC<IProps> = ({ price, time }) => {
   let [prevPrice, percentage] = usePrevPrice(price);
-
+  console.log(time);
   return (
     <div>
       <h2 className="text-xl  text-theme leading-6 font-bold">
@@ -72,7 +72,7 @@ const Stats: React.FC<IProps> = ({ price, time }) => {
                     {" "}
                     <span className="">
                       {" "}
-                      {typeof time === "string" && time}
+                      {(typeof time === "string" && time) || "fetching data..."}
                     </span>
                   </div>
                 </div>
