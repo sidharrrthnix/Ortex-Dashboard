@@ -33,4 +33,4 @@ the live feed, I have used the default values as "placeholder"
 
 ## Thank You
 
-I hope you like the application. I really enjoyed building it.
+
